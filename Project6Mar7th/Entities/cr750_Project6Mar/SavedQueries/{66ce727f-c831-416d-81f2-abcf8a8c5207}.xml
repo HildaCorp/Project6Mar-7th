@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{66ce727f-c831-416d-81f2-abcf8a8c5207}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr750_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr750_project6marid">
+          <cell name="cr750_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr750_project6mar">
+          <attribute name="cr750_project6marid" />
+          <attribute name="cr750_name" />
+          <attribute name="createdon" />
+          <order attribute="cr750_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Project6Mars" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
